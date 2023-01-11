@@ -7,15 +7,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node main.js",
-    "dev":"nodemon main.js"
+    "dev": "nodemon main.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@apollo/server": "^4.3.0",
+    "bcrypt": "^5.1.0",
     "graphql": "^16.6.0",
-    "mongo": "^0.1.0"
+    "jsonwebtoken": "^9.0.0",
+    "mongo": "^0.1.0",
+    "mongoose": "^6.8.3"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
