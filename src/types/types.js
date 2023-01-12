@@ -13,17 +13,20 @@ input UserInput{
     username:String!
     password:String!
 }
+type token{
+    tokenData: String!
+}
 
 input LoginInput{
     username:String!
     password:String!
 }
 type Query{
-    
-    login(credentials:LoginInput):User
+    aQuery:String
 }
 type Mutation{
     register(user:UserInput):User!
+    login(credentials:LoginInput):token!
 }
 
 `;
